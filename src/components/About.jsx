@@ -22,12 +22,19 @@ const About = () => {
           </p>
 
           <div className="flex gap-4 mt-2 md:mt-0 text-sm md:text-base">
-            <button className="bg-[#38BDF8] px-8 py-3 font-semibold rounded-4xl hover:bg-[#7DD3FC] transition-colors duration-300">
+            <a
+              href="#projects"
+              className="bg-[#38BDF8] px-8 py-3 font-semibold rounded-4xl hover:bg-[#7DD3FC] transition-colors duration-300"
+            >
               Lihat Proyek
-            </button>
-            <button className="border border-[#475569] text-white px-8 py-3 font-semibold rounded-4xl hover:bg-[#1E293B] transition-colors duration-300">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ahmad-zaki-alghifari-732035314/"
+              target="_blank"
+              className="border border-[#475569] text-white px-8 py-3 font-semibold rounded-4xl hover:bg-[#1E293B] transition-colors duration-300"
+            >
               Hubungi Saya
-            </button>
+            </a>
           </div>
         </div>
       </div>
