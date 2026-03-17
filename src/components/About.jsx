@@ -3,7 +3,7 @@ const About = () => {
     <section id="about">
       <div className="max-w-6xl mx-auto md:min-h-screen flex flex-col md:flex-row gap-12 items-center px-6 py-24 md:py-0">
         <img
-          src="public/foto.png"
+          src="/foto.png"
           alt="profile-photo"
           className="w-62 md:w-78 h-62 md:h-78 rounded-full border border-[#E5E7EB]"
         />

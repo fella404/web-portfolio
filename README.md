@@ -1,12 +1,34 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositori ini berisi *source code* untuk website portofolio pribadi saya. Proyek ini dibangun untuk menampilkan profil singkat, daftar keahlian, teknologi yang saya kuasai, serta koleksi proyek yang pernah saya kembangkan. 
 
-Currently, two official plugins are available:
+Semua data dan konten portofolio dirender langsung di dalam aplikasi web ini.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Teknologi yang Digunakan
 
-## Expanding the ESLint configuration
+Proyek ini dibangun menggunakan:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **[React.js](https://reactjs.org/)** - Library JavaScript untuk membangun *User Interface*.
+* **[Tailwind CSS](https://tailwindcss.com/)** - *Utility-first* CSS framework untuk styling yang efisien dan desain yang responsif.
+
+## 🚀 Cara Menjalankan Proyek Secara Lokal
+
+Jika Anda ingin mengunduh dan menjalankan proyek ini di komputer lokal Anda, silakan ikuti langkah-langkah di bawah ini:
+
+### Prasyarat
+Pastikan Anda sudah menginstal **Node.js** dan **npm** (atau **yarn**) di komputer Anda.
+
+### Instalasi dan Menjalankan
+  ```bash
+  # clone repo
+  git clone [https://github.com/your-github-username/web-portfolio.git]
+
+  # pindah ke direktori proyek
+  cd web-portfolio
+
+  # install package yang diperlukan
+  npm install
+
+  # jalankan proyek
+  npm run dev
+  ```
