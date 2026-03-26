@@ -36,7 +36,7 @@ const Skill = () => {
           {skills.map((skill) => (
             <li
               key={skill.name}
-              className="shrink-0 p-6 flex flex-col items-center gap-3 bg-[#1E293B] rounded-xl mb-2"
+              className="shrink-0 p-6 flex flex-col items-center gap-3 bg-[#1E293B] rounded-xl mb-2 cursor-pointer"
             >
               {skill.element}
               <p className="text-[#E5E7EB] font-medium">{skill.name}</p>
